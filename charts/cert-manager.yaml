@@ -5,7 +5,7 @@ metadata:
   displayName: cert-manager
   description: Automated TLS certificate management for Kubernetes — integrates with Let's Encrypt and private CAs
   category: security
-  icon: cert-manager
+  icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/cert-manager/icon/color/cert-manager-icon-color.svg
   tags: [tls, certificates, letsencrypt, security]
 spec:
   repository:

@@ -22,7 +22,8 @@ Pre-configured Helm chart blueprints for the [mogenius](https://mogenius.com) pl
 | Harbor | Registry | `harbor/harbor` |
 | Kyverno | Security | `kyverno/kyverno` |
 | NFS Subdir External Provisioner | Storage | `nfs-subdir-external-provisioner/...` |
-| Renovate | Operations | `renovate/renovate` |
+| Renovate Operator | Operations | `mogenius/renovate-operator` |
+| Podinfo | Demo | `podinfo/podinfo` |
 
 ---
 
@@ -61,7 +62,7 @@ spec:
     url: https://charts.jetstack.io
   chart:
     name: jetstack/cert-manager
-    version: "v1.17.1"
+    version: "v1.20.2"
   install:
     release: cert-manager
     namespace: cert-manager

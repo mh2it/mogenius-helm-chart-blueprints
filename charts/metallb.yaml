@@ -5,7 +5,7 @@ metadata:
   displayName: MetalLB
   description: Bare-metal load-balancer for Kubernetes — assigns external IPs on clusters without cloud load-balancers
   category: networking
-  icon: metallb
+  icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/metallb/icon/color/metallb-icon-color.svg
   tags: [loadbalancer, networking, bare-metal]
 spec:
   repository:

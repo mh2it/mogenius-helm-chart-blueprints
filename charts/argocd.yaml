@@ -5,7 +5,7 @@ metadata:
   displayName: Argo CD
   description: Declarative GitOps continuous delivery for Kubernetes — syncs your cluster state from Git
   category: gitops
-  icon: argocd
+  icon: argo
   tags: [gitops, cicd, deployment, continuous-delivery]
 spec:
   repository:

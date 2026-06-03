@@ -5,7 +5,7 @@ metadata:
   displayName: Kyverno
   description: Kubernetes-native policy engine — validates, mutates and generates resources using admission webhooks
   category: security
-  icon: kyverno
+  icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/kyverno/icon/color/kyverno-icon-color.svg
   tags: [policy, security, admission-control, compliance]
 spec:
   repository:
@@ -18,6 +18,5 @@ spec:
     release: kyverno
     namespace: kyverno
   values: |
-    replicaCount: 1
     admissionController:
       replicas: 1
