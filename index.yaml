@@ -110,3 +110,10 @@ blueprints:
     category: demo
     icon: podinfo
     tags: [demo]
+
+  - id: yopass
+    displayName: yopass
+    description: yopass
+    category: demo
+    icon: podinfo
+    tags: [demo]
